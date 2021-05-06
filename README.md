@@ -14,7 +14,7 @@ spark.executorEnv.VAULT_NAMESPACE=""
 spark.executorEnv.VAULT_TOKEN=token
 spark.executorEnv.TRANSIT_BATCH_SIZE=20000
 spark.executorEnv.MAX_HTTP_THREADS=5
-``
+```
 
 ## Build
 3. Create fat JAR
@@ -24,7 +24,7 @@ sbt assembly
 
 ## Results
 
-
+```
 Vault Medium - 60,000 Batch Size
 ——————————————————
 Encrypted
@@ -68,5 +68,4 @@ Expected Record Count: 26839031
 Final Record Count: 26839031
 Elapsed Time: 259966ms
 Records per second: 103625
-
-
+```
