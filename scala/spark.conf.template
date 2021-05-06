@@ -1,0 +1,7 @@
+spark.yarn.appMasterEnv.BATCH_FILE=gs://spark-data-alympus/dialogue.csv
+spark.yarn.appMasterEnv.OUTPUT_FILE=gs://spark-data-alympus/encrypted.csv
+spark.executorEnv.VAULT_ADDRESS=http://localhost:8200
+spark.executorEnv.VAULT_NAMESPACE=""
+spark.executorEnv.VAULT_TOKEN=token
+spark.executorEnv.TRANSIT_BATCH_SIZE=20000
+spark.executorEnv.MAX_HTTP_THREADS=5
