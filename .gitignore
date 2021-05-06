@@ -4,3 +4,5 @@ scala/spark.conf
 scala/spark-local.conf
 scala/.idea
 scala/.bsp
+scala/project/project
+scala/project/target
