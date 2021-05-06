@@ -1,0 +1,11 @@
+folder,dialogueID,date,from,to,text
+3,126125.tsv,2008-04-23T14:55:00.000Z,bad_image,"","Hello folks, please help me a bit with the following sentence: 'Order here your personal photos or videos.' - I think the only allowed version is 'Order your personal videos or photos here.', but I'm not sure, are you?"
+3,126125.tsv,2008-04-23T14:56:00.000Z,bad_image,"",Did I choose a bad channel? I ask because you seem to be dumb like windows user
+3,126125.tsv,2008-04-23T14:57:00.000Z,lordleemo,bad_image,the second sentence is better english   and we are not dumb
+3,64545.tsv,2009-08-01T06:22:00.000Z,mechtech,"",Sock Puppe?t
+3,64545.tsv,2009-08-01T06:22:00.000Z,mechtech,"",WTF?
+3,64545.tsv,2009-08-01T06:22:00.000Z,richardcavell,mechtech,"it's a wikipedia term.  There is Prodigy, PRDIGY and prgidy and they're all the same guy"
+3,98758.tsv,2009-05-20T07:58:00.000Z,C-00000100,Severity1,what is bartek trying to do?
+3,98758.tsv,2009-05-20T08:01:00.000Z,C-00000100,Severity1,is he trying to play online video?
+3,98758.tsv,2009-05-20T08:04:00.000Z,C-00000100,Severity1,"bartek go here, if this doesn't play then it gives you a link to get it... http://www.milkandcookies.com/link/45466/detail/"
+3,86303.tsv,2010-08-24T19:56:00.000Z,pozic,Somelauw,"the algorithms from aptitude were ported to apt-get, AFAIK."

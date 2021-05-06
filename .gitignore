@@ -1,0 +1,6 @@
+scala/data/dialogue.csv
+scala/target/
+scala/spark.conf
+scala/spark-local.conf
+scala/.idea
+scala/.bsp
