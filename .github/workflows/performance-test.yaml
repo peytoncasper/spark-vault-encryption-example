@@ -1,0 +1,26 @@
+name: Performance Test
+on: [push]
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    # Terraform Init
+    - uses: hashicorp/setup-terraform@v1
+      name: Terraform Init
+      run: terraform init
+    # Terraform Apply
+    - name: Terraform Apply
+      uses: hashicorp/setup-terraform@v1
+      run: terraform apply
+    # Waypoint Build
+    - uses: hashicorp/action-waypoint
+      name: Waypoint Build
+      with:
+        operation: build
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+    # Waypoint Deploy
+    - uses: hashicorp/action-waypoint
+      name: Waypoint Deploy
+      with:
+        operation: deploy
+        github_token: ${{ secrets.GITHUB_TOKEN }}

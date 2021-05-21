@@ -22,6 +22,29 @@ spark.executorEnv.MAX_HTTP_THREADS=5
 sbt assembly
 ```
 
+## Run
+This happens in two stages due to the Vault provider depending on the token and address from step 1.
+
+4. Create DataProc Cluster and HCP Vault Cluster
+```
+cd terraform/step-1
+terraform init
+terraform apply
+```
+
+5. Create Transit Engine
+```
+cd terraform/step-2
+terraform init
+terraform apply
+```
+
+6. Deploy Waypoint Job
+```
+cd waypoint
+waypoint up
+```
+
 ## Results
 
 ```

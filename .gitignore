@@ -6,3 +6,14 @@ scala/.idea
 scala/.bsp
 scala/project/project
 scala/project/target
+.idea/
+.waypoint/
+terraform/*/.terraform
+terraform/*/.terraform.lock.hcl
+terraform/*/.terraform.tfstate.lock.info
+terraform/*/terraform.tfstate
+terraform/*/terraform.tfstate.bak
+waypoint/data.db
+waypoint/waypoint-restore.db.lock
+waypoint/.waypoint/
+*/*.jar
